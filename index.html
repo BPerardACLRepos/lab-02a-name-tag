@@ -9,7 +9,7 @@
 <body>
     <div class="site-grid">
         <header>
-            <h1>Welcome to my digital name tag</h1>
+            <h1>Welcome to my digital name tag generator</h1>
         </header>
         <main class="name-tag">
             <section class="name-tag-label">
@@ -20,16 +20,33 @@
                 <p class="your-name-here">b-rad</p>
             </section>
             <section class="name-tag-bottom">
-
+                <h4 class="your-pronouns-here">he/him</h3>
             </section>
         </main>
         <aside class="sidebar">
             <p>Don't you wish you had a new-school name tag?</p>
             <p>If you don't, shame on you.</p>
         </aside>
+        <div id="user-generator">
+            <div class="personalize">
+                <input id="input-name" type="text" placeholder="Your Name">
+                <input id="input-pronouns" type="text" placeholder="Your Pronouns">
+                <button id="personalize-button">Personalize Name Tag</button>
+            </div>
+            <div class="fancify">
+                <input id="input-color" type="text" placeholder="Name Tag Color">
+                <input id="input-font" type="text" placeholder="Choose a Font">
+                <input id="input-font-size" type="text" placeholder="Choose Font Size">
+                <button id="fancify-button">Fancify Name Tag</button>
+            </div>
+            <div class="tracker">
+                <p></p>
+            </div>
+        </div>
         <footer>
             <p>Established 2021</p>
         </footer>
     </div>
+    <script src="app.js"></script>
 </body>
 </html>
